@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        char harf = 'I';
+        char harf = 'E';
 
         switch (harf) {
             case 'A':
