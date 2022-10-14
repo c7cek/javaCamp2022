@@ -2,8 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         //IoC Container
-        CustomerManager customerManager=new CustomerManager(new Customer() {
-        }, new TeacherCreditManager());
+        CustomerManager customerManager=new CustomerManager(new Person(), new TeacherCreditManager());
         customerManager.giveCredit();
 
         CustomerManager customerManager1 =new CustomerManager();
