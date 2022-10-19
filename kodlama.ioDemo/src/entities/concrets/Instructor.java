@@ -38,4 +38,6 @@ public class Instructor extends Entity {
     public void setBranch(String branch) {
         this.branch = branch;
     }
+
+
 }
